@@ -26,6 +26,8 @@ const App = () => {
     localStorage.getItem("i18nextLng") === "ar" ? "rtl" : "ltr"
   );
 
+  const closeSidebar = () => setShowSidebar(false);
+
   const handlers = useSwipeable({
     onSwipedRight: () => setShowSidebar(true),
     preventDefaultTouchmoveEvent: true,
@@ -45,6 +47,7 @@ const App = () => {
           <LanguageBtn dir={setDir} setShowSidebar={setShowSidebar} />
         }
       />
+      {showSidebar && <div className="overlay" onClick={closeSidebar}></div>}
       <Hero />
       <About />
       <Skills />
