@@ -19,7 +19,8 @@ const Work = () => {
             desc={t("blogsDesc")}
             technicles={
               <>
-                <Technicles name="HTML" /> <Technicles name="CSS" />
+                <Technicles name="HTML" />
+                <Technicles name="CSS" />
                 <Technicles name="JavaScript" /> <Technicles name="React" />
                 <Technicles name="React Router" />
                 <Technicles name="React Icons" />
