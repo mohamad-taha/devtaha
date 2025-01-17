@@ -9,7 +9,7 @@ const Btn = () => {
     <a
       dir="ltr"
       href="assets/pdf/MohamadTahaKasirResume.pdf"
-      download="MohamadTahaKasirCV"
+      download="MohamadTahaKasirCV.pdf"
       className="resumeBtn"
     >
       {t("resumeBtn")}
