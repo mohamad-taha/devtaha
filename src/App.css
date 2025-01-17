@@ -47,6 +47,9 @@ button {
   .mt {
     margin-top: 50px;
   }
+  button{
+    align-items: center !important;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1023px) {
