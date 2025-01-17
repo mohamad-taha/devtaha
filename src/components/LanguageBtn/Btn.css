@@ -1,13 +1,13 @@
 .langBtn {
   background: none;
   border: none;
-  gap: 10px;
   font-size: 16px;
   font-weight: 500;
-  padding: 5px;
   width: max-content;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  width: 50px;
 }
 
 .langBtnContainer {

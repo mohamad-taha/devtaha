@@ -22,6 +22,7 @@
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
+
   > div {
     padding: 48px;
     width: 50%;
@@ -59,11 +60,13 @@
     letter-spacing: 1px;
     color: white;
   }
+
   .projectTech {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
   }
+
   span {
     padding: 5px 20px;
     background-color: #374151;
@@ -93,6 +96,7 @@
   -ms-transition: 300ms;
   -o-transition: 300ms;
 }
+
 .work > a:hover {
   border-bottom: 1px solid #d1d5db;
 }
