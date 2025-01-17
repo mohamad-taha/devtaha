@@ -12,7 +12,7 @@ const Btn = () => {
       download="MohamadTahaKasirCV.pdf"
       className="resumeBtn"
     >
-      {t("resumeBtn")}
+      <span>{t("resumeBtn")}</span>
       <FaFileDownload fontSize={16} />
     </a>
   );

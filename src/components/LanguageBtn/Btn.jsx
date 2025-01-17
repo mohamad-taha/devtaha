@@ -29,7 +29,7 @@ const Btn = ({ dir, setShowSidebar }) => {
         onClick={() => toggleLanguage()}
       >
         <HiOutlineTranslate fontSize={16} />
-        {i18n.language === "ar" ? "ar" : "en"}
+        <span>{i18n.language === "ar" ? "ar" : "en"}</span>
       </button>
     </div>
   );

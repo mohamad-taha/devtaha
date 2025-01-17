@@ -4,8 +4,8 @@
   background-color: whitesmoke;
   text-decoration: none;
   font-weight: 500;
-  color: black;
   font-size: 14px;
+  line-height: 1;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -28,6 +28,14 @@
     -moz-transition: 200ms;
     -ms-transition: 200ms;
     -o-transition: 200ms;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+  }
+  span {
+    color: black;
+    vertical-align: middle;
   }
 }
 
@@ -37,7 +45,8 @@
   -webkit-animation: changeColor 1s infinite;
 }
 
-.resumeBtn:hover svg {
+.resumeBtn:hover svg,
+.resumeBtn:hover span {
   animation-play-state: running;
   animation: changeColor 1s infinite;
   -webkit-animation: changeColor 1s infinite;

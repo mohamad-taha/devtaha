@@ -6,10 +6,8 @@
   width: max-content;
   display: flex;
   align-items: center;
+  line-height: 1;
   gap: 8px;
-  > * {
-    vertical-align: middle;
-  }
 }
 
 .langBtnContainer {
