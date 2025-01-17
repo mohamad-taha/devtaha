@@ -1,0 +1,62 @@
+.resumeBtn {
+  padding: 6px 10px;
+  border: none;
+  background-color: whitesmoke;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+  transition: 200ms;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  svg {
+    fill: #374151;
+    background-color: transparent;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+  }
+}
+
+.resumeBtn:hover {
+  animation: changeColor 1s infinite;
+  animation-play-state: running;
+  -webkit-animation: changeColor 1s infinite;
+}
+
+.resumeBtn:hover svg {
+  animation-play-state: running;
+  animation: changeColor 1s infinite;
+  -webkit-animation: changeColor 1s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    fill: #374151;
+    background-color: whitesmoke;
+    color: black;
+  }
+  50% {
+    fill: whitesmoke;
+    color: whitesmoke;
+    background-color: #374151;
+  }
+  100% {
+    fill: #374151;
+    background-color: whitesmoke;
+    color: black;
+  }
+}

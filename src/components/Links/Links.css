@@ -1,0 +1,22 @@
+.active {
+  color: #2bd0d0;
+}
+.links {
+  display: flex;
+  gap: 30px;
+  border-right: 1px solid;
+
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+  a:hover {
+    color: #2bd0d0;
+  }
+}

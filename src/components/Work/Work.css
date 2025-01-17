@@ -1,0 +1,124 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  > p {
+    color: #d1d5db;
+    font-size: 18px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+.projectContainer {
+  width: 1152px;
+  display: flex;
+  background-image: linear-gradient(to right, #4b5563 50%, #1f2937 50%);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  > div {
+    padding: 48px;
+    width: 50%;
+  }
+
+  > div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  img {
+    width: 480px;
+    height: 384px;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 25px 25px 0 #00000049;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+
+  p {
+    color: #d1d5db;
+    text-align: justify;
+  }
+
+  .projectName {
+    font-size: 20px;
+    font-family: rubik;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+  }
+  .projectTech {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  span {
+    padding: 5px 20px;
+    background-color: #374151;
+    font-size: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  img:last-child {
+    object-position: center;
+  }
+}
+
+.work > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #d1d5db;
+  border-bottom: 1px solid transparent;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+.work > a:hover {
+  border-bottom: 1px solid #d1d5db;
+}
+
+@media (max-width: 1023px) {
+  .projectContainer {
+    background-image: linear-gradient(
+      to bottom,
+      #4b5563 0%,
+      #1f2937 60%
+    ) !important;
+    width: 100%;
+    flex-direction: column;
+
+    > div {
+      width: 100%;
+      padding: 20px;
+    }
+
+    img {
+      height: 290px;
+      width: 100%;
+    }
+
+    > div:last-child {
+      gap: 20px;
+    }
+  }
+}
