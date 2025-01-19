@@ -9,9 +9,7 @@ const skills = () => {
       <div className="container">
         <div className="skills">
           <h2 className="sectionTitle">{t("skills")}</h2>
-          <p>
-            
-          </p>
+          <p>{t("theTechnicles")}</p>
           <div className="skillIcons">
             <MySkill
               name="HTML"

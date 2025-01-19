@@ -76,16 +76,14 @@ i18n
                     by subscribing to our newsletter. Whether you're seeking inspiration, knowledge,
                     or practical tips, this is the perfect space to learn and grow. Start exploring today!`,
           edupress: "EduPress",
-          edupressDesc: `EduPress is an online learning platform designed to help you build skills
-                        and achieve your educational goals.
-                        Offering a variety of courses across top categories like Art & Design,
-                        Development, Communication, and Marketing, EduPress provides a seamless and engaging
-                        learning experience. With featured courses, expert instructors, and user-friendly tools
-                        like LearnPress LMS,
-                        it caters to students and educators alike.
-                        Whether you’re starting a new career,
-                        enhancing your knowledge, or teaching others, EduPress is your go-to
-                        platform for growth and success.`,
+          edupressDesc: `EduPress is an online learning platform designed to help you build skills and achieve your
+                        educational goals. Offering a variety of courses across top categories like Art & Design, Development,
+                        Communication, and Marketing, EduPress provides a seamless and engaging learning experience. With featured
+                        courses, expert instructors, and user-friendly tools like LearnPress LMS, it caters to students and
+                        educators alike. Whether you’re starting a new career, enhancing your knowledge, or teaching others,
+                        EduPress is your go-to platform for growth and success. Additionally, EduPress supports dark mode,
+                        providing a comfortable learning experience for your eyes. Furthermore,
+                        the platform also supports Arabic language, making it accessible and easy to use for Arabic speakers..`,
           multiStepsForm: "Multi-Steps Form",
           multiStepsDesc: `This is a Multi-Step Form designed with a modern and user-friendly interface that simplifies the process 
                   of data entry by breaking it into smaller, manageable steps. The form features
@@ -172,14 +170,16 @@ i18n
                       من خلال الاشتراك في النشرة الإخبارية الخاصة بنا. سواء كنت تبحث عن الإلهام أو المعرفة
                       أو النصائح العملية، فهذه هي المساحة المثالية للتعلم والنمو. ابدأ الاستكشاف اليوم!`,
           edupress: "إديوبريس",
-          edupressDesc: `إديوبريس عبارة عن منصة تعليمية 
-                        عبر الإنترنت مصممة لمساعدتك على بناء المهارات وتحقيق أهدافك التعليمية.
-                        تقدم إديوبريس مجموعة متنوعة من الدورات التدريبية عبر 
-                        الفئات العليا مثل الفن والتصميم والتطوير والتواصل والتسويق، وتوفر تجربة تعليمية سلسة وجذابة. 
-                        مع الدورات المميزة والمدربين الخبراء والأدوات سهلة الاستخدام فهي تلبي احتياجات 
-                        الطلاب والمعلمين على حد سواء.
-                        سواء كنت تبدأ مهنة جديدة أو
-                        تعزز معرفتك أو تعلم الآخرين، فإن إديوبريس هي منصتك المفضلة للنمو والنجاح.`,
+          edupressDesc: `إديوبريس هي منصة تعليمية 
+          عبر الإنترنت مصممة لمساعدتك على بناء المهارات وتحقيق أهدافك التعليمية. تقدم إديوبريس مجموعة 
+          متنوعة من الدورات التدريبية 
+          عبر فئات رئيسية مثل الفن والتصميم والتطوير والاتصالات والتسويق، وتوفر تجربة تعليمية سلسة وجذابة. مع الدورات المميزة 
+          والمدربين الخبراء 
+          والأدوات سهلة الاستخدام ، فهي تلبي احتياجات الطلاب والمعلمين على حد سواء. 
+          سواء كنت تبدأ مهنة جديدة أو تعزز معرفتك أو تعلم الآخرين، فإن إديوبريس هي منصتك المفضلة للنمو 
+          والنجاح. بالإضافة إلى ذلك، تدعم إديوبريس الوضع الداكن، 
+          مما يوفر تجربة تعليمية مريحة لعينيك. علاوة على ذلك، تدعم المنصة أيضًا 
+          اللغة العربية، مما يجعلها في متناول المتحدثين باللغة العربية وسهلة الاستخدام.`,
           multiStepsForm: "نموذج متعدد الخطوات",
           multiStepsDesc: `هذا نموذج متعدد الخطوات مصمم بواجهة حديثة وسهلة الاستخدام تبسط عملية
                           إدخال البيانات من خلال تقسيمها إلى خطوات أصغر يمكن إدارتها. يتميز النموذج
