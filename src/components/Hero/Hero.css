@@ -121,10 +121,11 @@
     }
 
     h1 {
-      white-space: wrap;
-      animation: blinkCaret 0.75s step-end infinite;
+      white-space: nowrap;
+      animation: blinkCaret 0.75s step-end infinite,
+        typing 6s steps(30, end) infinite;
       font-size: 30px;
-      width: 72%;
+      width: 100%;
     }
   }
 
